@@ -187,12 +187,6 @@ if (regexX.test(str) === true  ){
         message.channel.send("Not a command, see ** -help**.")
     }
 
-   
-
-
-  //===============================================================================================
-   
-
 
    
 
@@ -201,35 +195,5 @@ if (regexX.test(str) === true  ){
 
 
 
-/*
-const prefix = '-';
- 
-const fs = require('fs');
 
-client.commands = new Discord.Collection();
- 
-const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
-for(const file of commandFiles){
-    const command = require(`./commands/${file}`);
- 
-    client.commands.set(command.name, command);
-}
- 
-client.once('ready', () => {
-    console.log('TSD is online!');
-    bot.user.setActivity('Watching Prints!');
-});
- var NumberOfThanks = 0;
-client.on('message', message =>{
-    if(!message.content.startsWith(prefix) || message.author.bot) return;
- 
-    const args = message.content.slice(prefix.length).split(/ +/);
-    const command = args.shift().toLowerCase();
-*/
-
-
-
-//price, git hub, Laggy, Octoprint, What, help, not_watching, cam. tsd 
-// https://youtu.be/ZpDw9mNBngU
-// Embeds https://www.youtube.com/watch?v=I7eZY-SBmf8&list=PLbbLC0BLaGjpyzN1rg-gK4dUqbn8eJQq4&index=5
-client.login('Nzk2Njc0OTQ4NzM1MTcyNjI4.X_bXXQ.MsK0nGDCaZvMThcxlf9MxqdufwM');
+client.login(' Why you looking here ? ');
